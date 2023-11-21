@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+
+.link-cadastro{
+  color: #fff;
+}
+
+body{
+  background-image: url(../img/fundo-de-tela.jpg);
+}
+
+.main-container {
+  min-height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+}
+
+.main-container a {
+  text-decoration: none;
+}
+
+.main-container .login-wrapper {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 172px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 172px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 172px 6px rgba(0, 0, 0, 0.2);
+
+  width: 100%;
+  max-width: 900px;
+  min-height: 520px;
+  display: flex;
+}
+
+/* Estilos do formulario */
+.main-container .login-wrapper .form-wrapper {
+  min-width: 45%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #252525;
+  color: #fff;
+}
+
+.main-container .login-wrapper .form-wrapper .form-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 15px;
+  margin-top: 15px;
+
+  font-weight: 900;
+}
+
+.main-container .login-wrapper .form-wrapper .form-header .fa-arrow-left,
+.main-container .login-wrapper .form-wrapper .form-header .register-link,
+.main-container .login-wrapper .form-wrapper .form-container .forgot-pass {
+  color: white;
+}
+
+.main-container .login-wrapper .form-wrapper .form-container {
+  padding: 0px 60px;
+}
+
+.main-container .login-wrapper .form-wrapper .form-container .form-messages {
+  text-align: left;
+  line-height: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-container .login-wrapper .form-wrapper .form-container .form-messages h2 {
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main-container .login-wrapper .form-wrapper .form-container .form input {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 0.625rem;
+}
+
+.main-container .login-wrapper .form-wrapper .form-container .form input:focus {
+  outline: 2px solid #4694a8;
+}
+
+.main-container .login-wrapper .form-wrapper .form-container .form a {
+  display: block;
+}
+
+.main-container
+  .login-wrapper
+  .form-wrapper
+  .form-container
+  .form
+  .forgot-pass {
+  text-align: right;
+  font-weight: 750;
+}
+
+.main-container
+  .login-wrapper
+  .form-wrapper
+  .form-container
+  .form
+  .login-button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #B13131;
+  color: #fff;
+  text-align: center;
+}
+
+/* Separador */
+.main-container .login-wrapper .form-wrapper .form-container .separator {
+  border: 2px solid #e8e9ea;
+  margin-bottom: 35px;
+}
+
+/* login */
+.main-container .login-wrapper .form-wrapper .form-container .login-options {
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.main-container
+  .login-wrapper
+  .form-wrapper
+  .form-container
+  .login-options
+  .login-text {
+  margin-bottom: 15px;
+}
+
+.main-container .login-wrapper .form-wrapper .form-container .login-icons {
+  font-size: 20px;
+}
+
+.main-container
+  .login-wrapper
+  .form-wrapper
+  .form-container
+  .login-icons
+  .fa-facebook-square,
+.main-container
+  .login-wrapper
+  .form-wrapper
+  .form-container
+  .login-icons
+  .fa-google,
+.main-container
+  .login-wrapper
+  .form-wrapper
+  .form-container
+  .login-icons
+  .fa-twitter {
+  color: #4694a8;
+  padding: 0px 10px;
+}
+
+/* Imagen*/
+
+.main-container .image-wrapper {
+  background: url("../img/img-ifce-teladefundo.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-container .image-wrapper .image-message {
+  color: #fff;
+  line-height: 20px;
+
+  padding: 50px 70px 70px 40px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.main-container .image-wrapper .image-message .image-hr-container {
+  margin: 5px 20px;
+}
+
+.main-container .image-wrapper .image-message .image-hr-container .image-hr {
+  border: 1px solid #e8e9ea;
+  min-width: 30px;
+}
+
+.main-container .image-wrapper .image-message .image-text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.text-selection{
+  color: #B13131;
+}
+
+.img-logo{
+  display: flex;
+  justify-content: center;
+}
